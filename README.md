@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 # MY_CODE
 
 记录下自己的代码
@@ -102,9 +94,9 @@ git diff HEAD^
 # 比较与HEAD版本lib目录的差异
 git diff HEAD -- ./lib
 # 比较远程分支master上有本地分支master上没有的
-git diff orgin/master..master
+git diff origin/master..master
 # 只显示差异文件，不显示具体内容
-git diff orgin/master..master --stat
+git diff origin/master..master --stat
 # 增加远程定义（用于push/pull/fetch）
 git remote add origin https://github.com/liangchunlan/MY_CODE.git
 # 显示本地分支
@@ -132,15 +124,15 @@ git checkout --track hotfixes/BJVEP933
 # 检出版本v2.0
 git checkout v2.0
 # 从远程分支develop创建新本地分支devel并检出
-git checkout -b devel orgin.develop
+git checkout -b devel origin.develop
 # 检出head版本的readme文件（可用于修改错误）
 git checkout -- README
 # 合并远程master分支至当前分支
-git merge orgin/master
+git merge origin/master
 # 合并ff44785404a8e的修改
 git cherry-pick ff44785404a8e
 # 将当前分支push到远程master分支
-git push orgin master
+git push origin master
 # 删除远程仓库的hotfixes/BJVEP933分支
 git push prgin :hotfixes/BJVEP933
 # 把所有tag推送到远程仓库
@@ -150,7 +142,7 @@ git fetch
 # 获取所有原创分支并清除服务器上已删除的分支
 git fetch --prune
 # 获取远程分支master并merge到当前分支
-git pull orgin master
+git pull origin master
 # 重命名文件readme为readme2
 git mv READEME README2
 # 将当前版本重置为HEAD（通常用于merge失败回退）
