@@ -26,6 +26,10 @@ git push -u origin main
 
 > https://www.runoob.com/note/56524
 
+![](./git.jpg)
+
+
+
 ![](E:\GIT\MY_CODE\MY_CODE\git.jpg)
 
 ```bash
