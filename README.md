@@ -26,7 +26,7 @@ git push -u origin main
 
 > https://www.runoob.com/note/56524
 
-![](E:\GIT\demo\MY_CODE\src\git.jpg)
+![](E:\GIT\MY_CODE\MY_CODE\git.jpg)
 
 ```bash
 # 初始化本地仓库（创建仓库）
